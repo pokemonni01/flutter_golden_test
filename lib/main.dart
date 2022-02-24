@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_golden_test/widgets/primay_button.dart';
+import 'package:flutter_golden_test/widgets/primary_button.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
@@ -54,13 +54,8 @@ class MyHomePage extends StatelessWidget {
       appBar: AppBar(
         title: Text(title),
       ),
-      body: Center(
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: const [
-            PrimaryButton(text: "Test Primary Button")
-          ],
-        ),
+      body: const Center(
+        child: PrimaryButton(text: "Test Primary Button"),
       ), // This trailing comma makes auto-formatting nicer for build methods.
     );
   }

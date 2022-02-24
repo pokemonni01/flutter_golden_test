@@ -35,7 +35,7 @@ class PrimaryButton extends StatelessWidget {
             children: [
               if (_icon != null) Icon(_icon, key: const Key('icon')),
               Text(_text ?? AppLocalizations.of(context)!.nextPageButtonText,
-                  key: const Key('text'))
+                  key: const Key('text')),
             ],
           ),
         ),

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_golden_test/widgets/primay_button.dart';
+import 'package:flutter_golden_test/widgets/primary_button.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:golden_toolkit/golden_toolkit.dart';
 
@@ -17,7 +17,7 @@ void main() {
       (WidgetTester tester) async {
     final builder = DeviceBuilder(bgColor: Colors.white)
       ..overrideDevicesForAllScenarios(devices: [
-        Device.iphone11,
+        Device.phone,
         const Device(
           name: '140 x 140',
           size: Size(140, 140),
